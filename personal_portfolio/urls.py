@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     #path('',include('hello_world.urls')),
     path('',include('calc.urls')),
+    path('travello',include('travello.urls')),
 ]
