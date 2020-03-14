@@ -32,10 +32,14 @@
 							<nav class="main_nav">
 								<ul class="d-flex flex-row align-items-start justify-content-start">
 									<li class="active"><a href="{% static 'index.html' %}">Home</a></li>
-									<li><a href="{% static 'about.html' %}">About us</a></li>
-									<li><a href="#">Services</a></li>
-									<li><a href="{% static 'news.html' %}">News</a></li>
 									<li><a href="{% static 'contact.html' %}">Contact</a></li>
+									{% if user.is_authenticated %}
+									<li> Hello, {{user.username}}</li>
+									<li><a href="accounts/logout">logout</a></li>
+									{% else %}
+									<li><a href ="accounts/register">Register</a></li>
+									<li><a href="accounts/login">Login</a></li>
+									{% endif%}
 								</ul>
 							</nav>
 							<div class="header_phone ml-auto">Call us: 00-56 445 678 33</div>
@@ -73,10 +77,8 @@
 		<div class="menu_content">
 			<ul>
 				<li><a href="inex.html">Home</a></li>
-				<li><a href="about.html">About us</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="news.html">News</a></li>
 				<li><a href="contact.html">Contact</a></li>
+				<li><a href="register.html">Register</a></li>
 			</ul>
 		</div>
 		<div class="menu_social">
@@ -236,7 +238,7 @@
 	</div>
 
 	<!-- Destinations -->
-
+{% if
 	<div class="destinations" id="destinations">
 		<div class="container">
 			<div class="row">
@@ -252,15 +254,15 @@
 						<!-- Destination -->
 						<div class="destination item">
 							<div class="destination_image">
-								<img src="{{dest.object.img}}" alt="">
-								{% if dest.offer %}
+								<img src="{{dest.Img.url}}" alt="">
+								{% if dest.Offer %}
 								<div class="spec_offer text-center"><a href="#">Special Offer</a></div>
 								{% endif %}
 							</div>
 							<div class="destination_content">
-								<div class="destination_title"><a href="destinations.html">{{dest.name}}</a></div>
-								<div class="destination_subtitle"><p>{{dest.disc}}</p></div>
-								<div class="destination_price">From ${{dest.price}}</div>
+								<div class="destination_title"><a href="destinations.html">{{dest.Name}}</a></div>
+								<div class="destination_subtitle"><p>{{dest.Disc}}</p></div>
+								<div class="destination_price">From ${{dest.Price}}</div>
 							</div>
 						</div>
 						{% endfor %}

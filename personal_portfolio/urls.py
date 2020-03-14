@@ -22,6 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     #path('',include('hello_world.urls')),
     #path('',include('calc.urls')),
-    path('travello',include('travello.urls')),
+    path('',include('travello.urls')),
+    path('accounts/',include('Accounts.urls')),
 ]
 urlpatterns= urlpatterns + static( settings.MEDIA_URL ,document_root=settings.MEDIA_ROOT)

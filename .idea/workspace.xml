@@ -2,19 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89c9eefa-020c-4800-b51a-23379eb9473e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/code-comments.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accounts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Django.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personal_portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_portfolio/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personal_portfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_portfolio/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travello/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/travello/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travello/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/travello/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travello/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/travello/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travello/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/travello/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,6 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -40,6 +52,9 @@
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/" />
     </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -55,13 +70,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="0" key="SettingsEditor" timestamp="1584156416937">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584208838640">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584156416937" />
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1584156289668">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584208838640" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1584203051941">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584156289668" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584203051941" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1584200415819">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584200415819" />
+    <state x="380" y="0" width="606" height="728" key="find.popup" timestamp="1584192632100">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="380" y="0" width="606" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1584192632100" />
   </component>
 </project>

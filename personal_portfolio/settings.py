@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'Accounts',
     'travello.apps.TravelloConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -78,11 +79,15 @@ WSGI_APPLICATION = 'personal_portfolio.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'sheshu' ,#os.path.join(BASE_DIR, 'db.sqlite3'),
-        'USER':'postgres',
-        'PASSWORD':'1996',
-        'HOST':'127.0.0.1',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'OPTIONS':{
+            'timeout':20,
+        }
+        # 'NAME': 'sheshu'
+        # 'USER':'postgres',
+        # 'PASSWORD':'1996',
+        # 'HOST':'127.0.0.1',
     }
 }
 
